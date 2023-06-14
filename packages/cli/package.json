@@ -1,0 +1,30 @@
+{
+  "name": "gmateos-jbook",
+  "version": "1.0.0",
+  "description": "An interactive coding environment. You can write Javascript, see it executed, and write comprehensive documentation using markdown.",
+  "files": [
+    "dist"
+  ],
+  "bin": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gmateos-jbook/local-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@gmateos-jbook/local-api": "^1.0.0",
+    "commander": "^10.0.1",
+    "@types/node": "^20.3.0",
+    "esbuild": "0.8.26",
+    "typescript": "^5.1.3"
+  }
+}
