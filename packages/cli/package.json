@@ -1,6 +1,6 @@
 {
   "name": "gmateos-jbook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An interactive coding environment. You can write Javascript, see it executed, and write comprehensive documentation using markdown.",
   "files": [
     "dist"
