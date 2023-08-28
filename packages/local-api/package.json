@@ -1,6 +1,6 @@
 {
   "name": "@gmateos-jbook/local-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@gmateos-jbook/local-client": "^1.0.2",
+    "@gmateos-jbook/local-client": "^1.0.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6"

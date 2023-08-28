@@ -1,6 +1,6 @@
 {
   "name": "gmateos-jbook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An interactive coding environment. You can write Javascript, see it executed, and write comprehensive documentation using markdown.",
   "files": [
     "dist"
@@ -18,10 +18,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@gmateos-jbook/local-client": "^1.0.2"
+    "@gmateos-jbook/local-client": "^1.0.3"
   },
   "devDependencies": {
-    "@gmateos-jbook/local-api": "^1.0.2",
+    "@gmateos-jbook/local-api": "^1.0.3",
     "@types/node": "^20.3.0",
     "commander": "^10.0.1",
     "esbuild": "0.8.26",
